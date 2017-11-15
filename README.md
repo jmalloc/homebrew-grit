@@ -7,7 +7,7 @@ Install manually with:
     brew tap jmalloc/grit
     brew install grit
 
-Or add the content below to your [https://github.com/Homebrew/homebrew-bundle](Brewfile):
+Or add the content below to your [Brewfile](https://github.com/Homebrew/homebrew-bundle):
 
     tap "jmalloc/grit"
     brew "grit"
