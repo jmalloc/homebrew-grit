@@ -7,7 +7,7 @@ class Grit < Formula
   sha256 "c2cdd0c00b2a69ca6fe36e65c968140a1a10f11e7fd89bbe143796b2e70a0bcd"
 
   def install
-      bin.install "grit"
+      bin.install_symlink "grit"
   end
 
   test do
