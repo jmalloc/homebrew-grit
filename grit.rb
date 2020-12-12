@@ -2,9 +2,9 @@ class Grit < Formula
   desc "Keep track of your local Git clones."
   homepage "https://github.com/jmalloc/grit"
 
-  version ""
-  url "https://github.com/jmalloc/grit/releases/download//grit--darwin-amd64.zip"
-  sha256 "31c479e2b861c72097536dfc751fea05bcd01c09d42f86d70e5d9a4732390339"
+  version "0.6.10"
+  url "https://github.com/jmalloc/grit/releases/download/0.6.10/grit-0.6.10-darwin-amd64.zip"
+  sha256 "5301a491289c1fbf5ff9fcb81e2506691300ed670e7656b653159dddbefb279d"
 
   def install
       bin.install "grit"
