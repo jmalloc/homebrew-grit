@@ -4,7 +4,7 @@ class Grit < Formula
 
   version "0.7.0"
   url "https://github.com/jmalloc/grit/releases/download/0.7.0/grit-0.7.0-darwin-amd64.zip"
-  sha256 "384bfb099096d9ef781ea36464b20277d24cd46a9acba53588718ebc3ee4ec94"
+  sha256 "ef9e179f0d87cb7be9ac1617ff085de85f371f6d728260c966f966e5f39132a8"
 
   def install
       bin.install "grit"
