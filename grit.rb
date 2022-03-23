@@ -2,17 +2,17 @@ class Grit < Formula
   desc "Keep track of your local Git clones."
   homepage "https://github.com/jmalloc/grit"
 
-  version "0.7.2"
+  version "0.7.3"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/jmalloc/grit/releases/download/0.7.2/grit-0.7.2-darwin-amd64.zip"
-      sha256 "eef45e3dcfe976324cb2026868b8a932857c6f46ad716880057818c9ede8025a"
+      url "https://github.com/jmalloc/grit/releases/download/0.7.3/grit-0.7.3-darwin-amd64.zip"
+      sha256 "d3189e173980402d4ff8328bd9a6b2a78c75487cbbc37238cbbc90550beb1a0c"
     end
 
     if Hardware::CPU.arm?
-      url "https://github.com/jmalloc/grit/releases/download/0.7.2/grit-0.7.2-darwin-arm64.zip"
-      sha256 "b74498717a2d82ef3503e3045aacbc6f2a48f42c6dc2bc0aa3660b330737e73c"
+      url "https://github.com/jmalloc/grit/releases/download/0.7.3/grit-0.7.3-darwin-arm64.zip"
+      sha256 "6c72daf50b22770a172675b2455d138b98667055d3e13c816edd89fe742dadd7"
     end
   end
 
